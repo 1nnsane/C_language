@@ -117,6 +117,7 @@ int main(){
     
     printf ("longlongint %lld\n",l);
     printf ("unsigned longlongint %llu\n",m);
+    
     //6 урок  (C format specifiers)
     //спецификатор формата % определяет и форматирует тип отображаемых данных 
     //%c = character -символ
@@ -135,6 +136,7 @@ int main(){
     printf ("Item1: $%-9.3f\n", item1);
     printf ("Item2: $%-9.3f\n", item2);
     printf ("Item3: $%-9.3f\n", item3);
+
 
     return 0;
 }
