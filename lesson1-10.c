@@ -117,5 +117,24 @@ int main(){
     
     printf ("longlongint %lld\n",l);
     printf ("unsigned longlongint %llu\n",m);
+    //6 урок  (C format specifiers)
+    //спецификатор формата % определяет и форматирует тип отображаемых данных 
+    //%c = character -символ
+    //%s= string - строка (массив символов)
+    //%f= float число с плавающей запятой
+    //%lf= double двойной
+    //%d= integer (int) целое число 
+
+    //%.1= десятичная точность
+    //%1= минимальная ширина поля
+    //%-=выравнивание по левому краю
+    //   %-9.3f\n", name); 
+    float item1 = 5.75;
+    float item2 = 10.00;
+    float item3 = 100.99;
+    printf ("Item1: $%-9.3f\n", item1);
+    printf ("Item2: $%-9.3f\n", item2);
+    printf ("Item3: $%-9.3f\n", item3);
+
     return 0;
 }
