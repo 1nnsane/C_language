@@ -180,6 +180,35 @@ int main(){
     xxxx++;
     printf ("%d\n",xxxx);
 
+//Урок 9
+        // augmented assignment operators = used to replace a statement where an operator
+        //                                  takes a variable as one of its arguments
+        //                                  and then assigns the result back to the same variable
+        //                                  x = x + 1
+        //                                  x+=1
+     
+     int q = 10;
+     
+        //q = q + 2;
+        //q+=2;
+     
+        //q = q - q;
+        //q-=3;
+     
+        //q = q * 4;
+        //q*=4;
+     
+        //q = q / 5;
+        //q/=5;
+     
+        //q = q % 2;
+        //q%=2;
+     
+        printf("%d\n", q);
+
+        //
+       
+
 
 
     return 0;
