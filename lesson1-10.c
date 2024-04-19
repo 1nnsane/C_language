@@ -160,5 +160,27 @@ int main(){
         // ++ increment - увеличение на 1
         // -- decrement - уменьшение на 1 (удобно исп для определения четных, не четных, после определения модуля)
 
+    int xx = 7;
+    int yy = 2;
+    int z = xx/yy;
+    printf("%d\n",z); //ответ 3, так как int - целые цифры
+
+
+    int xxx = 7;
+    int yyy = 2;
+    float zz = xxx/(float)yyy;
+    printf("%f\n",zz); //ответ 3.5, так как испр float - десятичные. важно - перед yyy исп float, чтобы ответ вышел не 3, а 3.5
+
+
+    int xxxx = 7;
+    int yyyy = 2;
+    float zzz = xxxx%yyyy;
+    printf("%f\n",zzz);
+
+    xxxx++;
+    printf ("%d\n",xxxx);
+
+
+
     return 0;
 }
