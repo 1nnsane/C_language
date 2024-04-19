@@ -9,7 +9,7 @@ int main(){
     
     /*
      многострочный коммент
-     */
+    */
     
     
     /* \n - new line
@@ -37,7 +37,7 @@ int main(){
     /*мы обращаемя к имени переменной (int,float,char), чтобы получить доступ к сохраненному значению (21, 2.05, c, bro)
      переменные используются для хранения значений
      чтобы указать переменную - надо указать какой тип данных
-     */
+    */
     
     printf ("Hello %s\n",name);
     printf ("You are %d years old\n", age);
@@ -152,13 +152,13 @@ int main(){
 
 
     //Урок 8 (C arithmetic operators)
-        // + (addition)
-        // - (subtraction)
-        // * (multiplication)
-        // / (division)
-        // % (modulus) - остаток 7/2 = 1
-        // ++ increment - увеличение на 1
-        // -- decrement - уменьшение на 1 (удобно исп для определения четных, не четных, после определения модуля)
+    // + (addition)
+    // - (subtraction)
+    // * (multiplication)
+    // / (division)
+    // % (modulus) - остаток 7/2 = 1
+    // ++ increment - увеличение на 1
+    // -- decrement - уменьшение на 1 (удобно исп для определения четных, не четных, после определения модуля)
 
     int xx = 7;
     int yy = 2;
@@ -180,34 +180,32 @@ int main(){
     xxxx++;
     printf ("%d\n",xxxx);
 
-//Урок 9
-        // augmented assignment operators = used to replace a statement where an operator
-        //                                  takes a variable as one of its arguments
-        //                                  and then assigns the result back to the same variable
-        //                                  x = x + 1
-        //                                  x+=1
+    //Урок 9
+    // augmented assignment operators = used to replace a statement where an operator
+    //                                  takes a variable as one of its arguments
+    //                                  and then assigns the result back to the same variable
+    //                                  x = x + 1
+    //                                  x+=1
      
-     int q = 10;
+    int q = 10;
      
-        //q = q + 2;
-        //q+=2;
-     
-        //q = q - q;
-        //q-=3;
-     
-        //q = q * 4;
-        //q*=4;
-     
-        //q = q / 5;
-        //q/=5;
-     
-        //q = q % 2;
-        //q%=2;
-     
-        printf("%d\n", q);
+    //q = q + 2;
+    //q+=2;
+    
+    //q = q - q;
+    //q-=3;
+    
+    //q = q * 4;
+    //q*=4;
+    
+    //q = q / 5;
+    //q/=5;
+    
+    //q = q % 2;
+    //q%=2;
+    
+    printf("%d\n", q);
 
-        //
-       
 
 
 
