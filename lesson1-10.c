@@ -138,5 +138,27 @@ int main(){
     printf ("Item3: $%-9.3f\n", item3);
 
 
+    //Урок 7 (C constants)
+    //константа - значение которое нельзя менять в ходе программы
+
+    const float PI = 3.14159;
+    printf("%f\n",PI);
+
+    //bez constant
+    float pi = 3.14159;
+    pi = 420.50;
+    printf ("%f\n"); // --> значение pi меняется на 420.50
+
+
+
+    //Урок 8 (C arithmetic operators)
+        // + (addition)
+        // - (subtraction)
+        // * (multiplication)
+        // / (division)
+        // % (modulus) - остаток 7/2 = 1
+        // ++ increment - увеличение на 1
+        // -- decrement - уменьшение на 1 (удобно исп для определения четных, не четных, после определения модуля)
+
     return 0;
 }
