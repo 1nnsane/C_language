@@ -44,6 +44,22 @@ int main(){
 */
 
 
+//Урок 12 Программа для вычисления длины и площади окружности
+
+const double PI = 3.14159;
+double radius;
+double circumference; //поиск радиуса окружности
+
+//площадь окружности
+double area;
+
+printf ("enteer radius of circle");
+scanf("%lf", &radius);
+
+circumference = 2 * PI * radius; //формула решения длины окружности
+area = PI * radius * radius; //формула решения площади окружности
+
+
 
 
 
