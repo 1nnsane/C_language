@@ -63,6 +63,7 @@ printf ("area: %lf\n", area);
 */
 
 //Урок 13 (нахождение гипотенузы)
+/*
 double a;
 double b;
 double c;
@@ -75,8 +76,26 @@ scanf ("%lf", &b);
 
 c = sqrt (a*a + b*b);
 printf ("Side C %lf", c);
+*/
 
+//Урок 14 (C if statements)
+int age;
 
+printf("Enter age ");
+scanf ("%d", &age);
+
+if(age >= 18){
+    printf ("You signed");
+}
+else if (age ==0){
+    printf ("U cant sign up, u just born");
+}
+else if (age < 0){ 
+    printf ("You wasnt burn");
+}
+else{ //если все строки выше не соблюдены, то совершается операция else в любом случае
+    printf ("U too young");
+}
 
 return 0;
 }
