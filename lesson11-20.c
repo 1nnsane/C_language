@@ -100,6 +100,36 @@ else{ //если все строки выше не соблюдены, то со
 */
 
 //Урок 15 (C switch statements)
+// switch = A more efficient alternative to using many "else if" statements
+//                 allows a value to be tested for equality against many cases
+// альтернатива иф, елсе
+
+char grade;
+
+printf("\nEnter a letter grade: ");
+scanf("%c", &grade);
+
+switch (grade){
+    case 'A':  
+printf("Perfect\n");
+break;
+    case 'B':  
+printf("Good\n");
+break;
+    case 'C':  
+printf("Okay\n");
+break;
+    case 'D':  
+printf("Not an F\n");
+break;
+    case 'F':  
+printf("U failed!\n");
+break;
+default: //если ни одно значение не подходит, то
+printf ("please use letter grades");
+}
+
+
 
 return 0;
 }
