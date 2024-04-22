@@ -79,6 +79,7 @@ printf ("Side C %lf", c);
 */
 
 //Урок 14 (C if statements)
+/*
 int age;
 
 printf("Enter age ");
@@ -96,6 +97,9 @@ else if (age < 0){
 else{ //если все строки выше не соблюдены, то совершается операция else в любом случае
     printf ("U too young");
 }
+*/
+
+//Урок 15 (C switch statements)
 
 return 0;
 }
