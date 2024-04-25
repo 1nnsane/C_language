@@ -197,5 +197,26 @@ scanf("%lf", &num1);
 printf("Enter number 2 \n");
 scanf("%lf", &num2);
 
+switch (operator){
+    case '+':
+    result = num1 + num2;
+    printf("result %lf", result);
+    break;
+    case '-':
+    result = num1 - num2;
+    printf("result %lf", result);
+    break;
+    case '*':
+    result = num1 * num2;
+    printf("result %lf", result);
+    break;
+    case '/':
+    result = num1 / num2;
+    printf("result %lf", result);
+    break; 
+default:
+printf("%c is not valid\n", operator);
+}
+
 return 0;
 }
