@@ -155,7 +155,7 @@ printf("%c is not a valid unit");
 }
 */
 
-
+/*
 //та же формула которая выводит температуру по формуле 
 char unit;
 float temp;
@@ -180,6 +180,9 @@ printf ("The temp in Farenheit is: %.1f", temp); //
 else {
 printf("%c is not a valid unit");
 }
+*/
+
+//Урок 17 
 
 
 return 0;
