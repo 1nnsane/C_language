@@ -183,7 +183,19 @@ printf("%c is not a valid unit");
 */
 
 //Урок 17 
+char operator;
+double num1;
+double num2;
+double result;
 
+printf("Enter an operator (+ - * /) \n");
+scanf ("%c", &operator);
+
+printf("Enter number 1 \n");
+scanf("%lf", &num1);
+
+printf("Enter number 2 \n");
+scanf("%lf", &num2);
 
 return 0;
 }
