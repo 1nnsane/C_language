@@ -154,5 +154,33 @@ else {
 printf("%c is not a valid unit");
 }
 */
+
+
+//та же формула которая выводит температуру по формуле 
+char unit;
+float temp;
+
+printf ("\n Is the temperature in F or C? ");
+scanf ("%c", &unit);
+
+unit = toupper(unit); //если написал c то ответ выдаст неверно, а с этой командой он перенес на заглавную букву
+
+if (unit == 'C'){
+printf("Enter the temp in celsius ");
+scanf("%f", &temp);
+temp = (temp * 9 / 5) + 32; 
+printf ("The temp in Farenheit is: %.1f", temp); //
+}
+else if (unit == 'F'){
+printf("Enter the temp in Farenheit ");
+scanf("%f", &temp);
+temp = ((temp - 32) * 5) / 9; 
+printf ("The temp in Farenheit is: %.1f", temp); //
+}
+else {
+printf("%c is not a valid unit");
+}
+
+
 return 0;
 }
