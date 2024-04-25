@@ -104,6 +104,7 @@ else{ //если все строки выше не соблюдены, то со
 //                 allows a value to be tested for equality against many cases
 // альтернатива иф, елсе
 
+/*
 char grade;
 
 printf("\nEnter a letter grade: ");
@@ -128,8 +129,30 @@ break;
 default: //если ни одно значение не подходит, то
 printf ("please use letter grades");
 }
+*/
+
+//Урок 16 (C temperature conversion program)
+/*
+используется библиотека <ctype.h>
 
 
+char unit;
+float temp;
 
+printf ("\n Is the temperature in F or C? ");
+scanf ("%c", &unit);
+
+unit = toupper(unit); //если написал c то ответ выдаст неверно, а с этой командой он перенес на заглавную букву
+
+if (unit == 'C'){
+printf("The temp is currently in C");
+}
+else if (unit == 'F'){
+printf("The temp is currently in F");
+}
+else {
+printf("%c is not a valid unit");
+}
+*/
 return 0;
 }
