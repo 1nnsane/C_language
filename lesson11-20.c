@@ -222,6 +222,7 @@ printf("%c is not valid\n", operator);
 
 //Урок 18 (C AND logical operator &&) Логический оператор ИЛИ
 // logical operators = && (AND) checks if two or more conditions are true
+/*
 float temp = 25;
 bool sunny = true;
 
@@ -231,8 +232,17 @@ if(temp >= 0 && temp <= 30 && sunny){
 else{
     printf("\nThe weather is bad!");
 }
+*/
 
+//19 урок (C OR logical operator ||)
+float temp = 1;
 
+if (temp <= 0 || temp >= 30){
+    printf("Wheater is bad\n");
+}
+else {
+    printf ("wheater is good\n");
+}
 
 
 return 0;
