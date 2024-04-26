@@ -183,6 +183,7 @@ printf("%c is not a valid unit");
 */
 
 //Урок 17 
+/*
 char operator;
 double num1;
 double num2;
@@ -217,6 +218,22 @@ switch (operator){
 default:
 printf("%c is not valid\n", operator);
 }
+*/
+
+//Урок 18 (C AND logical operator &&) Логический оператор ИЛИ
+// logical operators = && (AND) checks if two or more conditions are true
+float temp = 25;
+bool sunny = true;
+
+if(temp >= 0 && temp <= 30 && sunny){
+    printf("\nThe weather is good!");
+}
+else{
+    printf("\nThe weather is bad!");
+}
+
+
+
 
 return 0;
 }
