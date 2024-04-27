@@ -235,6 +235,7 @@ else{
 */
 
 //19 урок (C OR logical operator ||)
+/*
 float temp = 1;
 
 if (temp <= 0 || temp >= 30){
@@ -243,7 +244,17 @@ if (temp <= 0 || temp >= 30){
 else {
     printf ("wheater is good\n");
 }
+*/
 
+//Урок 20 (C NOT logical operator !)
+bool sunny = true;
+
+if (!sunny == true){
+    printf("The wheater is cloudy\n");
+}
+else {
+    printf ("The wheater is sunny\n");
+}
 
 return 0;
 }
