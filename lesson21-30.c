@@ -30,6 +30,22 @@ double square(double x)
    // return x * x;
 }
 
+//Урок 24 (C ternary operator)
+int findMax(int x, int y)
+{
+   // эта строка означает тоже самое что и строка 86 (нужно удалить при запуске то или это)
+   if (x > y)
+   {
+    return x;
+   }
+   else
+   {
+    return y;
+   }
+   // эта строка означает тоже самое что и строка 86 (нужно удалить при запуске то или это)
+
+   return (x > y) ? x : y; 
+}
 
 int main()
 {
@@ -51,6 +67,7 @@ int main()
     printf("%lf", x);
     */
 
+    
 
 
 
