@@ -21,6 +21,16 @@ printf("\nHappy birthday dear %s", name); //строка 33
 printf("\nNow you a %d years old!", age); //строка 34
 }
 
+//Урок 23 (C return statement 🔙)
+double square(double x)
+{
+   double result = x * x;
+   return result;
+   // либо просто вместо кода 50-51 ввести:
+   // return x * x;
+}
+
+
 int main()
 {
     /* //lesson 21
@@ -29,10 +39,16 @@ int main()
     birthday (); //повторение команды void (8-11 строки)
     */
 
+    /* //lesson 22
     char name [] = "Diyar";
     int age = 21;
 
     birthday(name,age);
+    */
+   
+    double x = square(3.14);
+    printf("%lf", x);
+
 
 
 
