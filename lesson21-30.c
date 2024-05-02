@@ -45,10 +45,11 @@ int main()
 
     birthday(name,age);
     */
-   
+
+    /* //lesson 23
     double x = square(3.14);
     printf("%lf", x);
-
+    */
 
 
 
