@@ -46,6 +46,9 @@ int findMax(int x, int y)
 
    return (x > y) ? x : y; 
 }
+//Урок 25 (C function prototypes 🤖)
+void hello(char[], int); //function prototype
+
 
 int main()
 {
@@ -74,6 +77,17 @@ int main()
     printf("%d", max);
     */
 
+    //lesson 25
+    char name[] = "Bro";
+    int age = 21;
+
+    hello(name, age);
 
     return 0;
+}
+
+void hello(char name[], int age)
+{
+   printf("\nHello %s", name);
+   printf("\nYou are %d years old", age);
 }
