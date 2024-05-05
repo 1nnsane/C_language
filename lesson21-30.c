@@ -52,54 +52,81 @@ void hello(char[], int); //function prototype
 
 int main()
 {
-    /* //lesson 21
-    birthday ();
-    birthday ();
-    birthday (); //повторение команды void (8-11 строки)
+   /* //lesson 21
+   birthday ();
+   birthday ();
+   birthday (); //повторение команды void (8-11 строки)
+   */
+
+   /* //lesson 22
+   char name [] = "Diyar";
+   int age = 21;
+
+   birthday(name,age);
+   */
+
+   /* //lesson 23
+   double x = square(3.14);
+   printf("%lf", x);
+   */
+
+   /* // lesson 24
+   // ternary operator = shortcut to if/else when assigning/returning a value
+   // (condition) ? value if true : value if false
+   int max = findMax(3, 4);
+   printf("%d", max);
+   */
+
+   /* //lesson 25
+   // function prototype
+
+   // WHAT IS IT?
+   // Function declaration, w/o a body, before main()
+   // Ensures that calls to a function are made with the correct arguments
+
+   // IMPORTANT NOTES
+   // Many C compilers do not check for parameter matching
+   // Missing arguments will result in unexpected behavior
+   // A function prototype causes the compiler to flag an error if arguments are missing
+
+   // ADVANTAGES
+   // 1. Easier to navigate a program w/ main() at the top
+   // 2. Helps with debugging
+   // 3. Commonly used in header files
+   char name[] = "Bro";
+   int age = 21;
+   hello(name, age);
     */
 
-    /* //lesson 22
-    char name [] = "Diyar";
-    int age = 21;
-
-    birthday(name,age);
-    */
-
-    /* //lesson 23
-    double x = square(3.14);
-    printf("%lf", x);
-    */
-
-    /* // lesson 24
-    // ternary operator = shortcut to if/else when assigning/returning a value
-    // (condition) ? value if true : value if false
-    int max = findMax(3, 4);
-    printf("%d", max);
-    */
-
-    /* //lesson 25
-    // function prototype
-
-    // WHAT IS IT?
-    // Function declaration, w/o a body, before main()
-    // Ensures that calls to a function are made with the correct arguments
-
-    // IMPORTANT NOTES
-    // Many C compilers do not check for parameter matching
-    // Missing arguments will result in unexpected behavior
-    // A function prototype causes the compiler to flag an error if arguments are missing
-
-    // ADVANTAGES
-    // 1. Easier to navigate a program w/ main() at the top
-    // 2. Helps with debugging
-    // 3. Commonly used in header files
-    char name[] = "Bro";
-    int age = 21;
-    hello(name, age);
-    */
 
 
-    return 0;
+
+   //урок 26 
+   // функции (154-155строка) strlwr(string1); strupr(string1); не работают в стандартной библиотеке С
+
+
+   char string1[] = "Bro";
+   char string2[] = "Code";
+
+   //strlwr(string1); не работает                               // converts a string to lowercase
+   //strupr(string1); не работает                            // converts a string to uppercase
+   //strcat(string1, string2); не работает              // appends string2 to end of string1
+   //strncat(string1, string2, 1); не работает        // appends n characters from string2 to string1
+   //strcpy(string1, string2); не работает            // copy string2 to string1
+   //strncpy(string1, string2, 2); работает      // copy n characters of string2 to string1
+
+   //strset(string1, '?');        //sets all characters of a string to a given character
+   //strnset(string1, 'x', 1);  //sets first n characters of a string to a given character
+   //strrev(string1);             //reverses a string
+
+   printf("%s", string1);
+
+
+
+
+   
+
+   return 0;
 }
 
 //lesson 25 (prototype)
