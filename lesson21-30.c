@@ -148,11 +148,31 @@ int main()
 
    //lesson 27 ((C for loops 🔁)
    // for loop = repeats a section of code a limited amount of times
-
+   /*
    for(int i = 1; i <= 10; i++)
    {
       printf("%d\n", i);
    }
+   */
+
+   //lesson 28 (C do while loop 🤸‍♂️)
+   // while loop = repeats a section of code possibly unlimited times. 
+   // WHILE some condition remains true
+   // a while loop might not execute at all
+
+   char name [25];
+   printf ("Whats ur name?: \n");
+   fgets (name, 25, stdin);
+   name [strlen(name) - 1] = '\0';
+
+   while (strlen(name) == 0) //если в терминале ввести пробел, то будет писать, ты не ввел данные
+   {
+      printf("U didnt enter ur name!\n");
+      printf ("Whats ur name?: \n");
+      fgets (name, 25, stdin);
+      name [strlen(name) - 1] = '\0';
+   }
+   printf("Hello %s",name);
 
    return 0;
 }
