@@ -155,6 +155,7 @@ int main()
    }
    */
 
+   /*
    //lesson 28 (C do while loop 🤸‍♂️)
    // while loop = repeats a section of code possibly unlimited times. 
    // WHILE some condition remains true
@@ -173,7 +174,10 @@ int main()
       name [strlen(name) - 1] = '\0';
    }
    printf("Hello %s",name);
-   
+   */
+
+  
+   //lesson 29
    // while loop = checks a condition, THEN executes a block of code if condition is true
    // do while loop = always executes a block of code once, THEN checks a condition
    int number = 0;
