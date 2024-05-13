@@ -222,6 +222,22 @@ int main()
       printf("\n");
    }
 
+   // Урок 31 (C break vs continue 🥊)
+   // continue = skips rest of code & forces the next iteration of the loop
+   // break = exits a loop/switch
+
+   for(int i = 1; i <= 20; i++)
+   {
+      if(i == 13)
+      {
+         continue; //пропустит число 13 и продолжит команду до 20
+         //break; //закончит на 13ом
+      }
+      printf("%d\n", i);
+   }
+   
+
+
    return 0;
 }
 
