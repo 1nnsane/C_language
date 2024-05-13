@@ -195,7 +195,8 @@ int main()
    printf("sum: %d", sum);
    */
 
-  
+
+   /*
    //lesson 30 (C nested loops ➰)
    int rows; 
    int columns;
@@ -221,6 +222,7 @@ int main()
       }
       printf("\n");
    }
+   */
 
    // Урок 31 (C break vs continue 🥊)
    // continue = skips rest of code & forces the next iteration of the loop
