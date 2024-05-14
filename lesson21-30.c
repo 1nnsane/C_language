@@ -224,7 +224,7 @@ int main()
    }
    */
 
-   
+   /*
    // Урок 31 (C break vs continue 🥊)
    // continue = skips rest of code & forces the next iteration of the loop
    // break = exits a loop/switch
@@ -238,8 +238,9 @@ int main()
       }
       printf("%d\n", i);
    }
+   */
    
-   
+   /*
    // lesson 32 ()
    // array = a data structure that can store many values of the same data type.
 
@@ -251,7 +252,7 @@ int main()
    prices[3] = 25.0;
    prices[4] = 20.0;
    printf("$%.2lf", prices[0]);
-   
+   */
 
    return 0;
 }
