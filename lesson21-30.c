@@ -266,6 +266,7 @@ int main()
    */
 
    
+   /*
    //Lesson 34
    // 2D array = an array, where each element is an entire array
    //            useful if you need a matrix, grid, or table of data
@@ -298,8 +299,9 @@ int main()
       }
       printf("\n");
    }
+   */
 
-   
+
    //урок 35 (C array of strings🧵)
    char cars[][10] = {"Mustang","Corvette","Camaro"};
    //cars[0] = "Tesla";
