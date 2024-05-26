@@ -299,6 +299,8 @@ int main()
       printf("\n");
    }
 
+   
+   //урок 35 (C array of strings🧵)
    char cars[][10] = {"Mustang","Corvette","Camaro"};
    //cars[0] = "Tesla";
    strcpy(cars[0], "Tesla");
@@ -307,7 +309,7 @@ int main()
       printf("%s\n", cars[i]);
    }
 
-   
+
    return 0;
 }
 
